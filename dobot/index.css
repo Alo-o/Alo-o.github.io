@@ -47,19 +47,72 @@ table {
 	border-spacing: 0;
 }
 
+
+	
+
+ 
 body{
 background-color: #1a2325;
 color: white;
+	padding-top: 400px;
+	padding-left: 75px;
+	padding-right: 75px;
+	padding-bottom: 200px;
 }
 
 h1{
 	font-family: "Ethica", sans-serif; 
-	font-size: 36px
+	font-size:36px;
+	padding-top: 10px;
+	padding-bottom: 15px;
+}
+
+h2{
+	font-family: "Ethica", sans-serif; 
+	font-size: 24px
+	color: #ffffff;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
 body{
 	font-family: "LFT Ethica", sans-serif; 
-	font-size: 16px
+	font-size: 16px; 
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
+
+.Grey {color: #555a5b; 
+padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+
+button{
+	background-color:#01bfc1; color: #ffffff;
+	font-family: "LFT Ethica", sans-serif; 
+	font-size: 14px;
+}
+
+.Check {
+	color: #01bfc1
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.Image {
+	padding-bottom: 75px;
+	padding-top: 40px;
+}
+
+p{
+	color: #abadad
+}
+
+.Logo {
+	padding-bottom:150px;
+}
+
+
 
 
