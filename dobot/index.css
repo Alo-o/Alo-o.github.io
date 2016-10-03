@@ -48,8 +48,18 @@ table {
 }
 
 body{
-background-color: #1a2325
+background-color: #1a2325;
 color: white;
+}
+
+h1{
+	font-family: "Ethica", sans-serif; 
+	font-size: 36px
+}
+
+body{
+	font-family: "LFT Ethica", sans-serif; 
+	font-size: 16px
 }
 
 
