@@ -52,65 +52,126 @@ table {
 
  
 body{
-background-color: #1a2325;
-color: white;
-	padding-top: 400px;
-	padding-left: 75px;
-	padding-right: 75px;
-	padding-bottom: 200px;
+	background-color: #1a2325;
+	margin-right: auto;
+	margin-left: auto;
+	width: 1100px;
+	height: 2500px;
+	border-top: 1px red; 
+
+
 }
+
 
 h1{
-	font-family: "Ethica", sans-serif; 
+	font-family: "Quatro Slab";
 	font-size:36px;
-	padding-top: 10px;
-	padding-bottom: 15px;
+	padding-top: 100px;
+	padding-bottom: 20px;
+	color: white;
 }
+
 
 h2{
-	font-family: "Ethica", sans-serif; 
+	font-family: "Quatro Slab";
 	font-size: 24px
-	color: #ffffff;
-	padding-top: 15px;
-	padding-bottom: 15px;
-}
+	padding-bottom: 10px;
+	padding-top: 20px;
+	color: white;
+	display: inline;
+	padding-right: 30px;
 
-body{
-	font-family: "LFT Ethica", sans-serif; 
-	font-size: 16px; 
-	padding-top: 15px;
-	padding-bottom: 15px;
-}
+		
 
-.Grey {color: #555a5b; 
-padding-top: 15px;
-	padding-bottom: 15px;
-}
-
-
-button{
-	background-color:#01bfc1; color: #ffffff;
-	font-family: "LFT Ethica", sans-serif; 
-	font-size: 14px;
-}
-
-.Check {
-	color: #01bfc1
-	padding-top: 15px;
-	padding-bottom: 15px;
-}
-
-.Image {
-	padding-bottom: 75px;
-	padding-top: 40px;
 }
 
 p{
-	color: #abadad
+	font-family: "lft Etica"; 
+	font-weight: 400px;
+	font-size:16px;
+	color: #6d7171;
+	width: 500px;
+	color: #abadad;
+	padding-bottom: 10px;
+
 }
 
-.Logo {
-	padding-bottom:150px;
+
+
+button{
+	color: white;
+	border: none;
+	background-color: #01ccce;
+	padding: 15px 32px;
+	text-align: center;
+	font-family: "LFT Ethica";
+	font-size: 14px;
+	font-weight: 600;
+	position: absolute;
+}
+
+a.button: hover{
+	color: #1a2325;
+
+}
+
+a.button: {
+	text-decoration: none;
+	color: white;
+	font-family: "LFT Etica"
+	font-size: 14px;
+}
+
+.check {
+	color: #126769;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.image {
+	position: absolute; 
+	margin-left: 600px; 
+	margin-bottom: 120px;
+}
+
+
+.logo {
+    border-style: solid;
+
+}
+.hr {
+  background-color: #f8695a;
+  width: 1270px;
+  height: 2px;
+}
+
+.grey {
+	color: #555a5b;
+	font-size: 16px;
+	padding-bottom: 30px;
+
+}
+
+article{
+	padding-bottom: 500px;
+}
+
+.hrdots{
+  border:none;
+  border-top:1px dotted #31393b;
+  height:2px;
+  width:35%;
+  padding: 20px;
+
+}
+
+.hrdots2{
+  border:none;
+  border-top:1px dotted #31393b;
+  height:2px;
+  width:83%;
+  padding: 20px;
+
 }
 
 
