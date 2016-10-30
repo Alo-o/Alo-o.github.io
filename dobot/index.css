@@ -46,21 +46,37 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-
 	
 
- 
+/* CODE BEGINS HERE */
+
+
+
+
 body{
 	background-color: #1a2325;
-	margin-right: auto;
-	margin-left: auto;
-	width: 1100px;
 	height: 2500px;
-	border-top: 1px red; 
-
-
+	border-top: 2px solid #f8695a;
 }
+
+
+
+.logo {
+padding-left: 140px;
+}
+
+
+
+
+article{
+	padding-bottom: 500px;
+	max-width:1150px;
+	margin: auto;
+    width: 80%;
+}
+
+
+
 
 
 h1{
@@ -69,21 +85,47 @@ h1{
 	padding-top: 100px;
 	padding-bottom: 20px;
 	color: white;
+	border-top: dotted 1px #31393b;
 }
+
+
+
+
+
+.image {
+	position: absolute; 
+	margin-left: 460px; 
+	margin-bottom: 120px;
+    height: 788px;
+    width: 628px;
+    border:5px solid white;
+}
+
+
+
+
+.grey {
+	color: #555a5b;
+	font-size: 16px;
+	padding-bottom: 30px;
+
+}
+
+
+
 
 
 h2{
 	font-family: "Quatro Slab";
-	font-size: 24px
-	padding-bottom: 10px;
-	padding-top: 20px;
+	font-size: 24px;
 	color: white;
 	display: inline;
-	padding-right: 30px;
-
-		
-
+	padding: 20px;
+	line-height: 125px;
 }
+
+
+
 
 p{
 	font-family: "lft Etica"; 
@@ -93,8 +135,9 @@ p{
 	width: 500px;
 	color: #abadad;
 	padding-bottom: 10px;
-
+	max-width: 350px;
 }
+
 
 
 
@@ -104,75 +147,36 @@ button{
 	background-color: #01ccce;
 	padding: 15px 32px;
 	text-align: center;
-	font-family: "LFT Ethica";
+	font-family: "LFT Etica";
 	font-size: 14px;
 	font-weight: 600;
 	position: absolute;
+	margin-top: 40px;
+    
 }
 
-a.button: hover{
-	color: #1a2325;
-
+.button:hover{
+	background-color: #028f90;
 }
 
-a.button: {
-	text-decoration: none;
-	color: white;
-	font-family: "LFT Etica"
-	font-size: 14px;
-}
+
 
 .check {
-	color: #126769;
-	padding-top: 40px;
-	padding-bottom: 40px;
-}
-
-.image {
-	position: absolute; 
-	margin-left: 600px; 
-	margin-bottom: 120px;
-}
-
-
-.logo {
-    border-style: solid;
-
-}
-.hr {
-  background-color: #f8695a;
-  width: 1270px;
-  height: 2px;
-}
-
-.grey {
-	color: #555a5b;
-	font-size: 16px;
+	color: #01bfc1;
+	padding-top: 20px;
 	padding-bottom: 30px;
-
+	border-bottom: 1px dotted #31393b;
 }
 
-article{
-	padding-bottom: 500px;
+
+
+
+.check:hover
+{
+	color: #028f90;
 }
 
-.hrdots{
-  border:none;
-  border-top:1px dotted #31393b;
-  height:2px;
-  width:35%;
-  padding: 20px;
 
-}
-
-.hrdots2{
-  border:none;
-  border-top:1px dotted #31393b;
-  height:2px;
-  width:83%;
-  padding: 20px;
-
-}
 
 
 
