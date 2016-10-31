@@ -76,6 +76,11 @@ article{
 }
 
 
+article:not(.not){
+	border-top: dotted 1px #31393b;
+
+}
+
 
 
 
@@ -85,7 +90,6 @@ h1{
 	padding-top: 100px;
 	padding-bottom: 20px;
 	color: white;
-	border-top: dotted 1px #31393b;
 }
 
 
@@ -108,6 +112,7 @@ h1{
 	color: #555a5b;
 	font-size: 16px;
 	padding-bottom: 30px;
+	font-family: "LFT Etica";
 
 }
 
@@ -122,8 +127,8 @@ h2{
 	display: inline;
 	padding: 20px;
 	line-height: 125px;
+	position: relative;
 }
-
 
 
 
@@ -161,11 +166,14 @@ button{
 
 
 
+
 .check {
 	color: #01bfc1;
 	padding-top: 20px;
 	padding-bottom: 30px;
+	padding-right: 145px;
 	border-bottom: 1px dotted #31393b;
+	text-decoration: none;
 }
 
 
