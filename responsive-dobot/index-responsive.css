@@ -58,6 +58,50 @@ table {
 
 /* CODE BEGINS HERE */
 
+@font-face {
+  font-family: 'quatro';
+  src: url('/fonts/quatroslab_regular-webfont.eot');
+  src: url('/fonts/quatroslab_regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('/fonts/quatroslab_regular-webfont.woff2') format('woff2'),
+       url('/fonts/quatroslab_regular-webfont.woff') format('woff'),
+       url('/fonts/quatroslab_regular-webfont.ttf') format('truetype'),
+       url('/fonts/quatroslab_regular-webfont.svg#quatro_slabregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'etica-semibold';
+  src: url('/fonts/lft_etica_semibold-webfont.eot');
+  src: url('/fonts/lft_etica_semibold-webfont.eot?#iefix') format('embedded-opentype'),
+       url('/fonts/lft_etica_semibold-webfont.woff2') format('woff2'),
+       url('/fonts/lft_etica_semibold-webfont.woff') format('woff'),
+       url('/fonts/lft_etica_semibold-webfont.ttf') format('truetype'),
+       url('/fonts/lft_etica_semibold-webfont.svg#lft_etica_sbsemibold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'etica';
+  src: url('/fonts/lft_etica_reg-webfont.eot');
+  src: url('/fonts/lft_etica_reg-webfont.eot?#iefix') format('embedded-opentype'),
+       url('/fonts/lft_etica_reg-webfont.woff2') format('woff2'),
+       url('/fonts/lft_etica_reg-webfont.woff') format('woff'),
+       url('/fonts/lft_etica_reg-webfont.ttf') format('truetype'),
+       url('/fonts/lft_etica_reg-webfont.svg#lft_eticaregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+
+
+
+
+
 body{
 	background-color: #1a2325;
 	border-top: 2px solid #f8695a;
@@ -66,17 +110,16 @@ body{
 
 
 .logo {
-position: relative;
+	position: relative;
 }
 
 
 
 
 article{
-	padding-bottom: 500px;
-	max-width:1050px;
 	margin: auto;
     width: 80%;
+    padding-right:5px;
 }
 
 
@@ -101,11 +144,6 @@ h1{
 
 
 .image {
-	position: absolute; 
-	margin-left: 460px; 
-	margin-bottom: 120px;
-    height: 100%;
-    width: 50%;
     border:5px solid white;
 }
 
@@ -140,6 +178,7 @@ p{
 	font-family: "lft Etica"; 
 	font-weight: 400px;
 	font-size:16px;
+	line-height: 20px;
 	color: #6d7171;
 	width: 500px;
 	color: #abadad;
@@ -197,53 +236,24 @@ button{
 
 /* RESPONSIVE */
 
-
-
-
-
-
-
-@media (max-width: 600px){
-
-
-
-
-article{
-	float: left;
-	padding-bottom: 50px;
-	max-width:600px;
-	margin: auto;
-    width: 70%;
-    margin-left:20px;
-}
-
-
-}
-
-
-@media (max-width: 800px){
-
+@media (max-width: 779px) {
 	.image{
-		display: none;
-		width: 100%;
-        height: 100%;
-        padding-right: 20px;
+		width:80%;
+	}
+	article{
+		padding-bottom:20px;
+	}
+}
+
+@media (min-width: 780px) {
+	.image{
+		float:right;
+    	width: calc(100% - 500px)
+}
+	article{
+		padding-bottom: 300px;
+		max-width:1050px;
 	}
 
 }
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
 
