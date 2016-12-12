@@ -60,16 +60,29 @@ table {
 
 
 body {
-    margin:0;
+  margin:0;
+}
+
+header{
+  position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+.ALO{
+  position: absolute;
+    top: 17px;
+    left: 3%;
+    font-family: helvetica;
+    color: grey;
+    text-decoration: none;
 }
 
 nav{
   padding-bottom: 15px;
   background-color: white;
-  position: fixed;
-  top: 0;
   text-align: center;
-  width: 100%;
   padding-top: 15px;
 
 }
@@ -90,45 +103,48 @@ nav a:hover:not(.active) {
 
 .active {
     border-bottom: solid grey;
+
 }
 
 .Me{
-	width: 45%;
-	float: left;
- 	height: 50%;
+  width: 30%;
+  float: left;
+  padding-top: 10%;
+  padding-left: 15%;
 }
 
 .right {
-  width: 45%;
+  width: 35%;
   float: right;
   height: 300px;
   text-align: center;
-  padding-top: 60px;
+  padding-top: 15%;
+  padding-right: 15%;
 }
 
 h1{
-	font-family: helvetica;
-	font-weight: lighter;
-	font-size:40px;
-	line-height: 5px;
-
+  font-family: helvetica;
+  font-weight: lighter;
+  font-size:40px;
+  line-height: 5px;
+  padding-bottom: 10%;
 
 
 }
 
 h2{
-	font-family: helvetica;
-	font-weight:bold;
-	font-size: 15px;
-	padding-bottom: 20px;
+  font-family: helvetica;
+  font-weight:bold;
+  font-size: 15px;
+  padding-bottom: 3%;
 
 }
 
 p{
-	font-family: helvetica;
-	font-size: 12px;
-	text-align: justify;
-	line-height: 22px;
+  font-family: helvetica;
+  font-size: 12px;
+  text-align: justify;
+  line-height: 22px;
 }
 
 

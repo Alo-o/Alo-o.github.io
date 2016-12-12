@@ -1,0 +1,30 @@
+<!Doctype HTML>
+<html lang="en-us">
+	<head> <head><meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Alondra's Portfolio </title> <meta charset="UTF-8"> <link rel="stylesheet" type="text/css" href="things.css"/> </head>
+		<body>
+		<header>
+			 <a class="ALO" href="index.html">ALO</a>
+		<nav>
+ 				 <a href="portfolio.html">Portfolio</a>
+ 				 <a class="active" href="about.html">About Me</a>
+ 				 <a href="contact.html">Contact</a>
+		</nav>
+		</header>
+
+			<article>
+				<img class="things" src="Images/things2.png" alt="things2"></div>
+				<div class="right"> 
+					<h1> GameCon App </h1>
+							<p> This is GameCon, an application for those who love video games or for those who want to learn more about them. This prototype was created for my Information Architecture 1 class based off of my 107 video game consoles database.</p>
+				</div>
+			</article>	
+
+
+			<article>
+
+
+
+
+		</body>
+</html>

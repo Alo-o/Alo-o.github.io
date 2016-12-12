@@ -69,7 +69,7 @@ nav{
   background-color: black;
   position: fixed;
   top: 0;
-  text-align: center;
+  text-align: 50%;
   width: 100%;
   padding-top: 15px;
 
@@ -98,8 +98,8 @@ h1{
     font-size: 300px;
     font-family: helvetica;
     color: white;
-    letter-spacing: 15px;
-    animation: fade 6s;
+    letter-spacing: 20px;
+    animation: fade 4s;
     padding-top:250px;
 }
 
